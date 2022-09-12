@@ -1,7 +1,12 @@
 import './App.css';
+import Hero from './components/Hero';
 
 function App() {
-  return <div className='App'>gym site</div>;
+  return (
+    <div className='App'>
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
