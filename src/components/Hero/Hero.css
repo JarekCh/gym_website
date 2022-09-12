@@ -1,0 +1,14 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__left-h {
+  padding: 2rem;
+  padding-top: 1.5rem;
+  flex: 3;
+}
+
+.hero__right-h {
+  flex: 1;
+}
