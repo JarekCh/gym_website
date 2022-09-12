@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .hero__left-h {
@@ -14,6 +15,8 @@
 
 .hero__right-h {
   flex: 1;
+  position: relative;
+  background-color: var(--orange);
 }
 
 .hero__the-best-add {
@@ -99,4 +102,85 @@
   background-color: transparent;
   width: 8rem;
   border: 2px solid var(--orange);
+}
+
+.hero__right-h > .btn {
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  color: black;
+}
+
+.hero__heart-rate {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--darkGrey);
+  width: fit-content;
+  padding: 1rem;
+  align-items: start;
+  border-radius: 5px;
+  position: absolute;
+  right: 4rem;
+  top: 7rem;
+}
+
+.hero__heart-rate > img {
+  width: 2rem;
+}
+
+.hero__heart-rate > span:nth-last-of-type(1) {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.hero__heart-rate > span:nth-last-of-type(2) {
+  color: var(--gray);
+}
+
+.hero__img {
+  position: absolute;
+  top: 10rem;
+  right: 8rem;
+  width: 23rem;
+}
+
+.hero__img-back {
+  position: absolute;
+  top: 4rem;
+  right: 20rem;
+  z-index: -1;
+  width: 15rem;
+}
+
+.hero__calories {
+  display: flex;
+  gap: 2rem;
+  background-color: var(--caloryCard);
+  border-radius: 5px;
+  padding: 1rem;
+  width: fit-content;
+  position: absolute;
+  top: 32rem;
+  right: 28rem;
+}
+
+.hero__calories > img {
+  width: 3rem;
+}
+
+.hero__calories > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.hero__calories > div > :nth-child(1) {
+  color: var(--gray);
+}
+
+.hero__calories > div > :nth-child(2) {
+  color: white;
+  font-size: 1.5rem;
 }
