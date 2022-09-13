@@ -1,7 +1,6 @@
 .hero {
   display: flex;
   justify-content: space-between;
-  position: relative;
 }
 
 .hero__left-h {
