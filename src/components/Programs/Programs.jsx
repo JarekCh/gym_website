@@ -14,8 +14,8 @@ const Programs = () => {
       </div>
 
       <div className='programs__categories'>
-        {programsData.map((program) => (
-          <div className='programs__category'>
+        {programsData.map((program, i) => (
+          <div key={i} className='programs__category'>
             {program.image}
             <span>{program.heading}</span>
             <span>{program.details}</span>
