@@ -5,6 +5,10 @@
   flex-direction: column;
   gap: 4rem;
   position: relative;
+  max-width: 90rem;
+  min-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .plans__programs-header {

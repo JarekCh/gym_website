@@ -2,6 +2,9 @@
   display: flex;
   gap: 1rem;
   padding: 0 2rem;
+  max-width: 90rem;
+  min-width: 80rem;
+  margin: 0 auto;
 }
 
 .testimonials__left {

@@ -2,6 +2,9 @@
   padding: 0 2rem;
   display: flex;
   gap: 2rem;
+  max-width: 90rem;
+  min-width: 80rem;
+  margin: 0 auto;
 }
 
 .reasons__left {
