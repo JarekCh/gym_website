@@ -30,3 +30,49 @@
   letter-spacing: 1px;
   line-height: 40px;
 }
+
+.testimonials__right {
+  flex: 1 1;
+  position: relative;
+}
+
+.testimonials__right > img {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  object-fit: cover;
+  right: 8rem;
+  top: 2rem;
+}
+
+.testimonials__right > :nth-child(1) {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  border: 2px solid orange;
+  background-color: transparent;
+  right: 9rem;
+  top: 0.9rem;
+}
+
+.testimonials__right > :nth-child(2) {
+  position: absolute;
+  width: 17rem;
+  height: 19rem;
+  right: 7rem;
+  top: 4rem;
+  background: var(--planCard);
+}
+
+.testimonials__arrows {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 3rem;
+}
+
+.testimonials__arrows > img {
+  width: 1.5rem;
+  cursor: pointer;
+}
