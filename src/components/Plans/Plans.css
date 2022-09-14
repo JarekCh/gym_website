@@ -16,6 +16,21 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  position: relative;
+}
+
+.plans__blur-1 {
+  width: 32rem;
+  height: 23rem;
+  top: 6rem;
+  left: 0;
+}
+
+.plans__blur-2 {
+  width: 32rem;
+  height: 23rem;
+  top: 10rem;
+  right: 0;
 }
 
 .plan {

@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .hero__left-h {
@@ -182,4 +183,10 @@
 .hero__calories > div > :nth-child(2) {
   color: white;
   font-size: 1.5rem;
+}
+
+.hero__blur {
+  width: 22rem;
+  height: 30rem;
+  left: 0;
 }
