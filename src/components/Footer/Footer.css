@@ -1,8 +1,5 @@
 .footer__container {
   position: relative;
-  max-width: 90rem;
-  min-width: 80rem;
-  margin: 0 auto;
 }
 
 .footer__container > hr {
@@ -50,4 +47,12 @@
   height: 12rem;
   filter: blur(200px);
   background: rgb(255, 115, 0);
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__container {
+    max-width: 90rem;
+    min-width: 80rem;
+    margin: 0 auto;
+  }
 }
