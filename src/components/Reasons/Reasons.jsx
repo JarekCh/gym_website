@@ -21,8 +21,8 @@ const Reasons = () => {
       <div className='reasons__right'>
         <span>some reasons</span>
         <div>
-          <sapn className='stroke-text'>why</sapn>
-          <sapn> choose us?</sapn>
+          <span className='stroke-text'>why</span>
+          <span> choose us?</span>
         </div>
         <div className='reasons__right-details'>
           <div>
