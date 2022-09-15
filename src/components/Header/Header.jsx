@@ -33,28 +33,28 @@ const Header = () => {
       ) : (
         <ul className='header__menu'>
           <li>
-            <Link
-              onClick={isMenuOpend}
-              to='hero'
-              span={true}
-              smooth={true}
-              activeClass='active'
-            >
+            <Link onClick={isMenuOpend} to='hero' spy={true} smooth={true}>
               Home
             </Link>
           </li>
           <li>
-            <Link onClick={isMenuOpend} to='programs' span={true} smooth={true}>
+            <Link onClick={isMenuOpend} to='programs' spy={true} smooth={true}>
               Programs
             </Link>
           </li>
           <li>
-            <Link onClick={isMenuOpend} to='reasons' span={true} smooth={true}>
+            <Link
+              onClick={isMenuOpend}
+              to='reasons'
+              spy={true}
+              smooth={true}
+              offset={-50}
+            >
               Why Us
             </Link>
           </li>
           <li>
-            <Link onClick={isMenuOpend} to='plans' span={true} smooth={true}>
+            <Link onClick={isMenuOpend} to='plans' spy={true} smooth={true}>
               Plans
             </Link>
           </li>
@@ -62,7 +62,7 @@ const Header = () => {
             <Link
               onClick={isMenuOpend}
               to='testimonials'
-              span={true}
+              spy={true}
               smooth={true}
             >
               Testimonials
