@@ -5,7 +5,6 @@ import leftArrow from '../../assets/leftArrow.png';
 import rightArrow from '../../assets/rightArrow.png';
 
 import { motion } from 'framer-motion';
-import { duration } from '@mui/material';
 
 const Testimonials = () => {
   const transition = { type: 'spring', duration: 3 };

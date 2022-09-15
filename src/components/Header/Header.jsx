@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Header.css';
 import logo from '../../assets/logo.png';
 import Bars from '../../assets/bars.png';
-import Link from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
@@ -32,11 +32,42 @@ const Header = () => {
         </div>
       ) : (
         <ul className='header__menu'>
-          <li onClick={isMenuOpend}>Home</li>
-          <li onClick={isMenuOpend}>Progrmas</li>
-          <li onClick={isMenuOpend}>Why Us</li>
-          <li onClick={isMenuOpend}>Plans</li>
-          <liv onClick={isMenuOpend}>Testimonials</liv>
+          <li>
+            <Link
+              onClick={isMenuOpend}
+              to='hero'
+              span={true}
+              smooth={true}
+              activeClass='active'
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link onClick={isMenuOpend} to='programs' span={true} smooth={true}>
+              Programs
+            </Link>
+          </li>
+          <li>
+            <Link onClick={isMenuOpend} to='reasons' span={true} smooth={true}>
+              Why Us
+            </Link>
+          </li>
+          <li>
+            <Link onClick={isMenuOpend} to='plans' span={true} smooth={true}>
+              Plans
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={isMenuOpend}
+              to='testimonials'
+              span={true}
+              smooth={true}
+            >
+              Testimonials
+            </Link>
+          </li>
         </ul>
       )}
     </div>
