@@ -14,4 +14,4 @@ Working features animation across site and emial notifications using Email.js.
 
 ### Live:
 
-jc-gym.netlify.app
+https://jc-gym.netlify.app
